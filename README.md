@@ -16,6 +16,11 @@ For information about **what's new** as well as **known issues**, see [RELEASES.
 For information on setting up a development environment, see [INSTALL.md](INSTALL.md).
 
 ## Commands
+# Instructions:
+# docker run -d -p 8000:8000 --name boh-server disenchant/bag-of-holding:latest
+# docker exec -it boh-server /bin/sh
+# python3 /bag-of-holding/src/manage.py createsuperuser
+
 
 #### ThreadFix
 The following command will retrieve the latest metrics from ThreadFix for connected applications. We recommend this be run daily as a Cron job.
